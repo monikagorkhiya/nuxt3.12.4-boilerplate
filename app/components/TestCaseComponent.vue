@@ -2,7 +2,5 @@
 </script>
 
 <template>
-  <div>
-    <NuxtLayout />
-  </div>
+  <div>This component is set up.</div>
 </template>

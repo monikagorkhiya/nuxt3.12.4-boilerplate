@@ -22,10 +22,14 @@
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <!-- Use ms-auto to push the menu items to the right -->
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <NuxtLink class="nav-link active" aria-current="page" href="/">
+              Home
+            </NuxtLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/basic">Basic Example</a>
+            <NuxtLink class="nav-link" href="/basic">
+              Basic Example
+            </NuxtLink>
           </li>
         </ul>
       </div>

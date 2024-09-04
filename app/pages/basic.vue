@@ -39,9 +39,13 @@ function showModal() {
   <div class="container pt-5 ">
     <div class="row">
       <div class="col-sm-12 mb-3">
-        <h1 class="text-center">
-          Custom Layout Page
+        <h1 class="text-center mb-3">
+          This page is under the Custom Layout
         </h1>
+
+        <h5 class="text-left text-muted">
+          This page is under the Custom Layout
+        </h5>
       </div>
       <div class="col-sm-6 mb-2">
         <div class="card">
@@ -50,10 +54,10 @@ function showModal() {
               How to use Utils?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Example
+              Check it utils folder and it's usage in basic.vue file
             </h6>
             <p class="card-text">
-              {{ formatNumber(1234) }}
+              Utils Example Output : {{ formatNumber(1234) }}
             </p>
           </div>
         </div>
@@ -65,10 +69,10 @@ function showModal() {
               How to use Server Api?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Example
+              Check it server folder and it's usage in basic.vue file
             </h6>
             <p class="card-text">
-              {{ data }}
+              Server api Example Output : {{ data }}
             </p>
           </div>
         </div>
@@ -80,10 +84,25 @@ function showModal() {
               How to use Content Module?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Example
+              Check it content folder,nuxt-config and it's usage in basic.vue file
             </h6>
             <!-- ContentDoc returns content for `$route.path` by default or you can pass a `path` prop -->
-            <ContentDoc />
+            Content module Example Output : <ContentDoc />
+          </div>
+        </div>
+      </div>
+
+       <div class="col-sm-6 mb-2">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">
+              How to use Testcase?
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              Check it tests folder,TestCaseComponent
+            </h6>
+            <!-- ContentDoc returns content for `$route.path` by default or you can pass a `path` prop -->
+            check it via npm run test
           </div>
         </div>
       </div>
@@ -94,7 +113,8 @@ function showModal() {
               How to use Composable with api?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Example
+              Check it composable folder and it's usage in basic.vue file.
+              Composable module Example Output :
             </h6>
             <div>
               <ul>
@@ -113,7 +133,7 @@ function showModal() {
               How to use middleware with Store?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Example
+              Check it middleware and store folder and it's usage in basic.vue file.
             </h6>
             <p>Check it middleware and stores folder's code </p>
           </div>
@@ -123,23 +143,24 @@ function showModal() {
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">
-              How to use Bootstrap JS  Navbar?
+              How to use Bootstrap JS with Navbar component?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Example
+              Check it plugin folder and it's usage in basic.vue file.
             </h6>
-            <Navbar />
+            Boostrap Navbar Example Output : <Navbar />
           </div>
         </div>
       </div>
-      <div class="col-sm-6 mb-2">
+      <div class="col-sm-6 mb-5">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">
-              How to use Bootstrap JS component?
+              How to use Bootstrap JS with Modal component?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Example
+              Check it plugin folder and it's usage in basic.vue file.
+              Boostrap Modal Example Output :
             </h6>
             <button class="btn btn-success" @click="showModal">
               Open Modal
@@ -153,14 +174,15 @@ function showModal() {
         </div>
       </div>
 
-      <div class="col-sm-6 mb-2">
+      <div class="col-sm-6 mb-5">
         <div class="card" :class="theme">
           <div class="card-body">
             <h5 class="card-title">
               How to use Composable static?
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Example
+              Check it Composable folder and it's usage in basic.vue file.
+              Composable Example Output :
             </h6>
             <div>
               <button class="btn btn-primary" @click="toggleTheme()">

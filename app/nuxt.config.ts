@@ -13,10 +13,6 @@ export default defineNuxtConfig({
       base_url: process.env.BASE_URL,
     },
   },
-  // build: {
-  //   transpile: ['bootstrap']
-  // },
-
   app: {
     head: {
       title: 'My Application',
@@ -58,6 +54,5 @@ export default defineNuxtConfig({
     propsDestructure: true,
   },
   css: ['bootstrap/dist/css/bootstrap.min.css', '~/assets/css/style.css'],
-  modules: ['@nuxt/content', '@pinia/nuxt', '@nuxt/image'],
-
+  modules: ['@nuxt/content', '@pinia/nuxt', '@nuxt/image','@nuxt/test-utils/module'],
 })
