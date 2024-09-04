@@ -1,10 +1,13 @@
 <script setup>
+
 </script>
 
 <template>
   <div>
-    <NuxtLayout>
+    <AppHeader />
+    <div class="main-custom mb-30">
       <NuxtPage />
-    </NuxtLayout>
+    </div>
+    <AppFooter />
   </div>
 </template>

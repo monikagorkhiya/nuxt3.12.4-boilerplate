@@ -3,8 +3,10 @@
 
 <template>
   <div>
-    <NuxtLayout>
+    <AppHeader />
+    <div class="main">
       <NuxtPage />
-    </NuxtLayout>
+    </div>
+    <AppFooter />
   </div>
 </template>
