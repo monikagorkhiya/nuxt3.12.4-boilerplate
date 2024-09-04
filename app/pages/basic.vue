@@ -92,7 +92,7 @@ function showModal() {
         </div>
       </div>
 
-       <div class="col-sm-6 mb-2">
+      <div class="col-sm-6 mb-2">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">

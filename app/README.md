@@ -1,25 +1,22 @@
 # Nuxt 3 Boilerplate with Basic example
 
-
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
 
-
-
-
-* copy `.env.example` to `.env`. (skip if already done)
+- copy `.env.example` to `.env`. (skip if already done)
 
 ## .env.example
 
-* copy `.env.example` to `.env`.
+- copy `.env.example` to `.env`.
+
 ```
 MODE=development
 BASE_URL=
 ```
-* `MODE`: This will indicate application state.
-* `BASE_URL`: You can specify your application URL.
 
+- `MODE`: This will indicate application state.
+- `BASE_URL`: You can specify your application URL.
 
 Make sure to install the dependencies:
 
@@ -81,12 +78,11 @@ npm run lint:fix
 ```
 
 ## for testcase run
+
 ```
 npm run test
 ```
 
 ## Pre commit hook will be auto lint fix when add commit
-
-
 
 ## For Details Describes in [DETAILS.md](https://github.com/Improwised/nuxt3-boilerplate/blob/main/app/DETAILS.md)

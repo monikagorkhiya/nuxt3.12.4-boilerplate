@@ -54,5 +54,5 @@ export default defineNuxtConfig({
     propsDestructure: true,
   },
   css: ['bootstrap/dist/css/bootstrap.min.css', '~/assets/css/style.css'],
-  modules: ['@nuxt/content', '@pinia/nuxt', '@nuxt/image','@nuxt/test-utils/module'],
+  modules: ['@nuxt/content', '@pinia/nuxt', '@nuxt/image', '@nuxt/test-utils/module'],
 })
