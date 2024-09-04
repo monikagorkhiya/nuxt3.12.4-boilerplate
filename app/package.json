@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "prepare": "npx simple-git-hooks",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -24,10 +25,14 @@
   "devDependencies": {
     "@antfu/eslint-config": "^3.0.0",
     "eslint": "^9.9.1",
+    "simple-git-hooks": "^2.11.1",
     "stylelint": "^16.9.0",
     "stylelint-config-standard": "^36.0.1"
   },
   "overrides": {
     "vue": "latest"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "cd app && npm run lint:fix"
   }
 }
