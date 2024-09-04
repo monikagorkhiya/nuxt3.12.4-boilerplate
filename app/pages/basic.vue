@@ -40,7 +40,7 @@ function showModal() {
     <div class="row">
       <div class="col-sm-12 mb-3">
         <h1 class="text-center mb-3">
-          This page is under the Custom Layout
+          This page contains basic usage of nuxt feature
         </h1>
 
         <h5 class="text-left text-muted">
